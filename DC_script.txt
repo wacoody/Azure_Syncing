@@ -1,0 +1,7 @@
+#Script (local to a Domain Controller)
+
+Start-ADSyncSyncCycle -PolicyType Delta
+
+#or
+
+Start-ADSyncSyncCycle -PolicyType Initial
